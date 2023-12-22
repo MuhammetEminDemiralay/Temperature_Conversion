@@ -1,0 +1,21 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.wrapper .btn{
+    width: 150px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s linear;
+}
+
+.btn:hover{
+    background-color: #000814;
+    color: #fff;
+}
